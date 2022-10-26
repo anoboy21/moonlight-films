@@ -14,6 +14,7 @@ import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyBfRFncIkXLmKSWx8efBT-RcUiDmaCr6Gc",
   authDomain: "topmovie-cd7f7.firebaseapp.com",
+  databaseURL: "https://topmovie-cd7f7-default-rtdb.firebaseio.com",
   projectId: "topmovie-cd7f7",
   storageBucket: "topmovie-cd7f7.appspot.com",
   messagingSenderId: "552388803144",
