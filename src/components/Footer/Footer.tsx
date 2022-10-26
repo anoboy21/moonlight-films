@@ -25,7 +25,8 @@ const Footer: FunctionComponent<FooterProps> = () => {
         </div>
       </div>
     </div>
-    
+    <a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4710162&101" alt="" border="0">
   );
 };
 
