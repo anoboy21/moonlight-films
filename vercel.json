@@ -1,4 +1,12 @@
 {
+    "routes": [
+        {
+            "src": "/arc-sw.js",
+            "dest": "https://arc.io/arc-sw.js"
+        }
+    ]
+},
+{
   "headers": [
     {
       "source": "/service-worker.js",
@@ -38,14 +46,7 @@
           "key": "authorized"
         }
       ],
-       "routes": [
-        {
-            "src": "/arc-sw.js",
-            "dest": "https://arc.io/arc-sw.js"
-        }
-    ],
-
-      "headers": [
+        "headers": [
         {
           "key": "x-authorized",
           "value": "true"
