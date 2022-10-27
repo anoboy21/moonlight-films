@@ -1,10 +1,21 @@
 {
+    "routes": [
+        {
+            "src": "/arc-sw.js",
+            "dest": "https://arc.io/arc-sw.js"
+        },
+		{
+      "source": "/service-worker.js",
+      "headers" : [
+        {
+          "key" : "Cache-Control",
+          "value" : "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/(.*)",
       "headers" : [
-          {
-          "key": "x-robots-tag",
-          "value": "index, follow"
-        },
         {
           "key" : "X-Content-Type-Options",
           "value" : "nosniff"
@@ -27,12 +38,12 @@
           "key": "authorized"
         }
       ],
-        "headers": [
+      "headers": [
         {
           "key": "x-authorized",
           "value": "true"
         }
       ]
     }
-  ]
+    ]
 }
