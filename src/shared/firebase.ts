@@ -18,7 +18,6 @@ const firebaseConfig = {
   storageBucket: "movie2022-487b4.appspot.com",
   messagingSenderId: "630155411577",
   appId: "1:630155411577:web:a32496d79694bcb90bd4a8",
-  measurementId: "G-NVHXPP9NP2"
 
 };
 
