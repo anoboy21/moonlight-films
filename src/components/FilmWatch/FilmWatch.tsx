@@ -251,7 +251,7 @@ const FilmWatch: FunctionComponent<FilmWatchProps & getWatchReturnedType> = ({
               </ReadMore>
             )}
           </div>
-          <Comment media_type={media_type} id={detail?.id} />
+          
         </div>
         <div className="shrink-0 md:max-w-[400px] w-full relative px-6">
           {!isMobile && <SearchBox />}
