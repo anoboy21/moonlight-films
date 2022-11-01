@@ -13,8 +13,8 @@
       "source": "/8cac4dfc58bef995186a97f07c8eb2ea.html",
       "headers" : [
         {
-          "key" : "Cache-Control",
-          "value" : "public, max-age=0, must-revalidate"
+          "type": "query",
+          "key": "authorized"
         }
       ]
     },
