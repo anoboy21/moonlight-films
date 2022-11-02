@@ -9,16 +9,7 @@
         }
       ]
     },
-    {
-      "source": "/8cac4dfc58bef995186a97f07c8eb2ea.html",
-      "headers" : [
-        {
-          "type": "query",
-          "key": "authorized"
-        }
-      ]
-    },
-    {
+     {
       "source": "/(.*)",
       "headers" : [
         {
